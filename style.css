@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap");
+
 body {
   margin: 0 auto;
   padding: 0;
@@ -56,7 +57,7 @@ nav {
   margin-bottom: -0.3em;
 }
 
-.text p {
+.hero .text p {
   font-style: italic;
 }
 
@@ -144,4 +145,62 @@ nav {
   font-style: italic;
   font-size: 30px;
   width: 100%;
+}
+
+/* Call To Action Section */
+.CTA-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5.4rem;
+  color: white;
+}
+
+.cta-container {
+  padding: 0;
+  background-color: #3882f6;
+  padding: 2rem;
+  border-radius: 0.4rem;
+  display: flex;
+  width: 90%;
+}
+
+.cta-container .text h3 {
+  margin: 0px;
+}
+
+.cta-container .text p {
+  margin: 0;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.cta-container .text {
+  flex: 2;
+  margin: 0;
+}
+
+.cta-container .button {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-container button {
+  padding: 0.3rem 2rem;
+  background: none;
+  border: 2px white solid;
+  border-radius: 5px;
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: white;
+  padding: 2rem;
 }
