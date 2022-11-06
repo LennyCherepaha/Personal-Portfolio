@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap");
-
 body {
   margin: 0 auto;
   padding: 0;
   /* width: 90%; */
   font-family: "Roboto", sans-serif;
-  color: white;
 }
 
+/* HEADER */
 header {
   background-color: #1f2937;
   padding: 20px;
+  color: white;
 }
 
 nav {
@@ -51,9 +51,9 @@ nav {
   justify-content: center;
 }
 
-h1 {
+.text h1 {
   margin: 0;
-  margin-bottom: -0.5em;
+  margin-bottom: -0.3em;
 }
 
 .text p {
@@ -70,11 +70,44 @@ h1 {
   padding: 150px 0px;
 }
 
-button {
+.text button {
   width: 7rem;
   padding: 7px;
   border-radius: 7px;
+  font-size: 1rem;
+  font-weight: bold;
   border: none;
   background-color: #3882f6;
   color: white;
+}
+
+/* FRAMES SECTION */
+.frame-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  width: 70%;
+  /* text-align: center; */
+}
+
+.frames {
+  display: flex;
+  margin-top: 20px;
+  gap: 40px;
+}
+
+.frame-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* margin-top: 1.8em; */
+  flex: 1;
+}
+
+.frame {
+  border: 3.5px #3882f6 solid;
+  padding: 3.7rem;
+  border-radius: 10%;
 }
