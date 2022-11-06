@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,100&display=swap");
 body {
   margin: 0 auto;
   padding: 0;
@@ -82,13 +82,17 @@ nav {
 }
 
 /* FRAMES SECTION */
+.frame-section h2 {
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
 .frame-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 auto;
   width: 70%;
-  /* text-align: center; */
 }
 
 .frames {
@@ -110,4 +114,34 @@ nav {
   border: 3.5px #3882f6 solid;
   padding: 3.7rem;
   border-radius: 10%;
+}
+
+/* Quote Section */
+.quote-section {
+  margin: 0 auto;
+  height: 255px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3em;
+  background-color: #e5e7eb;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.quote-container .author {
+  display: flex;
+  justify-content: end;
+  font-weight: 700;
+  margin: -10px;
+}
+
+.quote-section .quote {
+  font-style: italic;
+  font-size: 30px;
+  width: 100%;
 }
